@@ -46,7 +46,7 @@ function QueueManager() {
             {queues.map((queue) => (
               <ListGroup.Item key={queue.name} className="d-flex justify-content-between align-items-center">
                 {queue.name} - {queue.count} messages
-                <Button className="custom-button" onClick={() => handleQueueSelect(queue.name)}>
+                <Button className="custom-button" onClick={() => handleQueueSelect(queue.name)} style={{backgroundColor:"#003246"}}>
                   Select
                 </Button>
               </ListGroup.Item>
@@ -57,7 +57,7 @@ function QueueManager() {
           {selectedQueue && (
             <div className="message-container">
               <h4>Selected Queue: {selectedQueue}</h4>
-              <Button className="custom-button" onClick={fetchMessage}>
+              <Button className="custom-button" onClick={fetchMessage} style={{backgroundColor:"#003246"}}>
                 Go
               </Button>
               {message && (

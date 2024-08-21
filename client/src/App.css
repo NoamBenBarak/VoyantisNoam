@@ -1,5 +1,5 @@
 body {
-  background-color: #bfbfbf;
+  background-color: beige;
   color: #333;
   font-family: Arial, sans-serif;
 }
@@ -9,10 +9,10 @@ h1 {
 }
 
 .message-container {
-  background-color: #bfbfbf;
+  background-color: #e7d3d3;
   padding: 1rem;
   border-radius: 0.25rem;
-  color: white;
+  color: rgb(58, 56, 61);
 }
 
 .queue-manager ul {

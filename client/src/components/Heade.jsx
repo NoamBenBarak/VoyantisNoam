@@ -13,7 +13,6 @@ const Header = () => {
                     className="d-inline-block align-top"
                     />
                 {' '}
-                Voyantis
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
