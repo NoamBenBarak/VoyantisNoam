@@ -1,0 +1,39 @@
+body {
+  background-color: #bfbfbf;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #053e80; 
+}
+
+.message-container {
+  background-color: #bfbfbf;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.queue-manager ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.queue-manager li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #bfbfbf;
+}
+
+.queue-manager button {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.queue-manager button:hover {
+  background-color: #02182e;
+}
